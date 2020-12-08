@@ -1,0 +1,53 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/fales_sc000002_redo_fales_sc000002_n000067_d",
+  "protocol": "http://iiif.io/api/image",
+  "width": 2356,
+  "height": 3897,
+  "sizes": [
+    {
+      "width": 2356,
+      "height": 3897
+    },
+    {
+      "width": 250,
+      "height": 414
+    },
+    {
+      "width": 1140,
+      "height": 1886
+    },
+    {
+      "width": 90,
+      "height": 149
+    },
+    {
+      "width": 501,
+      "height": 829
+    }
+  ],
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "supports": [
+        "cors",
+        "sizeByWhListed",
+        "baseUriRedirect"
+      ]
+    }
+  ],
+  "tiles": [
+    {
+      "width": 512,
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8
+      ]
+    }
+  ]
+}
