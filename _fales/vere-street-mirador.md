@@ -1,9 +1,9 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
+title: A New Song on the Vere-Street Club
 manifest: "img/derivatives/iiif/fales_sc000003/manifest.json"
+permalink: '/fales/vsm/'
+viewer: Mirador
 ---
 
 {% include mirador.html manifest=page.manifest %}
