@@ -1,0 +1,22 @@
+---
+layout: none
+---
+{
+  "@type": "oa:Annotation",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/fales_sc000002_redo_fales_sc000002_n000010_d.json",
+  "motivation": "sc:painting",
+  "resource": {
+    "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/fales_sc000002_redo_fales_sc000002_n000010_d/full/full/0/default.jpg",
+    "@type": "dcterms:Image",
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/fales_sc000002_redo_fales_sc000002_n000010_d",
+      "profile": "http://iiif.io/api/image/2/level0.json"
+    },
+    "width": 2432,
+    "height": 3914
+  },
+  "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/fales_sc000002_redo_fales_sc000002_n000010_d.json",
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}

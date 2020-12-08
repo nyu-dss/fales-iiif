@@ -1,0 +1,6 @@
+.DS_Store
+.jekyll-cache
+.jekyll-metadata
+_data/source_images/*
+_site
+img/derivatives/iiif/images/*

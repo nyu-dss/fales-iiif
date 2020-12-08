@@ -1,0 +1,19 @@
+title: fales-iiif
+baseurl: "/fales-iiif" # the subpath of your site, e.g. /blog
+url: "https://nyu-dss.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+theme: minima
+incremental: true
+webrick:
+  headers:
+    Access-Control-Allow-Origin: "*"
+
+collections:
+  fales:
+    output: true
+    images:
+      source: source_images
+      variants:
+        uv-thumb: 90
+        osd: 501
+    metadata:
+      source: fales-tests.csv
