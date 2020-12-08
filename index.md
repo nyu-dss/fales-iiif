@@ -3,9 +3,9 @@ layout: home
 ---
 
 ## Mirador
-- [Dwarf Stories]({{ '/mirador/dwarf-stories/' | absolute_url }})
-- [A New Song on the Vere-Street Club]({{ '/mirador/vere-street/' | absolute_url }})
+- [Dwarf Stories]({% link _fales/dwarf-stories-mirador.md %})
+- [A New Song on the Vere-Street Club]({% link _fales/vere-street-mirador.md %})
 
 ## Universal Viewer
-- [Dwarf Stories]({{ '/uv/dwarf-stories/' | absolute_url }})
-- [A New Song on the Vere-Street Club]({{ '/uv/vere-street/' | absolute_url }})
+- [Dwarf Stories]({% link _fales/dwarf-stories-uv.md %})
+- [A New Song on the Vere-Street Club]({% link _fales/vere-street-uv.md %})
